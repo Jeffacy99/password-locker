@@ -39,7 +39,6 @@ class Credentials:
 
 
     credentials_list = []
-     # Init method up here
     def save_credentials(self):
         pass
 
@@ -52,7 +51,7 @@ class Credentials:
             self.user_name= user_name
 
 
-            
+
     def save_credentials(self):
         Credentials.credentials_list.append(self)
 
