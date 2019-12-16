@@ -6,10 +6,6 @@
 
 
 
-## AUTHOR'S INFORMATION
-I am a young ambicious youth about programming and looking forward in being the best.Am a student at moringa school.
-
-
 
 ## SETUP INSTRUCTIONS
 >Text editor - atom
