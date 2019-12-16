@@ -87,7 +87,7 @@ class TestCredentials(unittest.TestCase):
         test_credentials = Credentials("facebook","Jeffacy99","Jeffacy Mwania") # new credentials
         test_credentials.save_credentials()
 
-        # found_credentials = Credentials.find_by_password("Jeffacy99")
+    
 
         # self.assertEqual(found_credentials.credentials,test_credentials.password)
 
