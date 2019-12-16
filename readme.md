@@ -12,14 +12,12 @@ I am a young ambicious youth about programming and looking forward in being the 
 
 
 ## SETUP INSTRUCTIONS
->Text editer - I used Visual studio code & atom
->Github account
+>Text editor - atom
+>Github account-Jeffacy99
 >Git installed in pc
+>Python shell
 >Terminal in ubuntu
 >OS-ubuntu
-
-
-
 
 ## TECHNOLOGIES USED
 >Python 3.8
