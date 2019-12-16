@@ -59,7 +59,6 @@ class TestCredentials(unittest.TestCase):
          # saving the new credentials
         self.assertEqual(len(Credentials.credentials_list),1)
 
-# setup and class creation up here
     def tearDown(self):
             Credentials.credentials_list = []
 
