@@ -50,7 +50,7 @@ def main():
             print("Hello Welcome to your credentials list. What is your name?")
             user_name = input()
 
-            print(f"Hello {user_name}. what would you like to do?")
+            print(f"Hello {user_name}. what do you want to do?")
             print('\n')
 
             while True:
