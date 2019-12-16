@@ -68,7 +68,6 @@ class TestCredentials(unittest.TestCase):
         self.new_credentials.save_credentials()
         test_credentials = Credentials("facebook","Jeffacy99","Jeffacy Mwania") # new credentials
 
-# More tests above
     def test_delete_credentials(self):
             '''
             test_delete_credentials to test if we can remove a credentials from our credentials list
@@ -87,7 +86,7 @@ class TestCredentials(unittest.TestCase):
         test_credentials = Credentials("facebook","Jeffacy99","Jeffacy Mwania") # new credentials
         test_credentials.save_credentials()
 
-    
+
 
         # self.assertEqual(found_credentials.credentials,test_credentials.password)
 
