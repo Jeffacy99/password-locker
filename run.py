@@ -47,7 +47,7 @@ def check_existing_email(password):
     return Credentials.credentials_exist(password)
 def main():
 
-            print("Hello Welcome to your credentials list. What is your name?")
+            print(" Welcome to credentials list. What is your name?")
             user_name = input()
 
             print(f"Hello {user_name}. what do you want to do?")
