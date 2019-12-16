@@ -5,7 +5,7 @@ class User:
     user_list=[]
     def __init__(self,first_name,last_name,phone_number,email):
 
-        
+
 
             self.first_name = first_name
             self.last_name = last_name
@@ -94,7 +94,7 @@ class Credentials:
 
         return False
 
-    # @classmethod
+
     # def copy_email(cls,email):
     #     credentials_found = Credentials.find_by_email(email)
     #     pyperclip.copy(credentials_found.email)
