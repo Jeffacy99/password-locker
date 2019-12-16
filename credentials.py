@@ -45,14 +45,14 @@ class Credentials:
 
     def __init__(self,account,password,user_name):
 
-    
+
 
             self.account = account
             self.password = password
             self.user_name= user_name
 
 
-            # save_password method saves password objects into password_list
+            
     def save_credentials(self):
         Credentials.credentials_list.append(self)
 
