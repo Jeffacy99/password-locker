@@ -63,7 +63,6 @@ class TestCredentials(unittest.TestCase):
     def tearDown(self):
             Credentials.credentials_list = []
 
-# other test cases here
     def test_save_multiple_credentials(self):
 
         self.new_credentials.save_credentials()
