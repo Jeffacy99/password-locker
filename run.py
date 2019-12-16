@@ -97,7 +97,7 @@ def main():
 
                     elif short_code == 'fc':
 
-                            print("Enter the password you want to search for")
+                            print("Enter  password you are looking for")
 
                             search_password = input()
                             if check_existing_credentials(password):
