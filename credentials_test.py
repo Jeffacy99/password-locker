@@ -8,7 +8,7 @@ class TestUser(unittest.TestCase):
 
 
     def setUp(self):
-        self.new_user =User ("Jeffacy","Mwania","0722673853","japhethmwania99@gmail.com") #Create password object
+        self.new_user =User ("Jeffacy","Mwania","0722673853","japhethmwania99@gmail.com")
 
     def test_init(self):
         self.assertEqual(self.new_user.first_name,"Jeffacy")
