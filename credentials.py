@@ -45,7 +45,7 @@ class Credentials:
 
     def __init__(self,account,password,user_name):
 
-        # docstring removed for simplicity
+    
 
             self.account = account
             self.password = password
