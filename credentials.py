@@ -38,7 +38,7 @@ class Credentials:
 
 
 
-    credentials_list = []# Empty password list
+    credentials_list = []
      # Init method up here
     def save_credentials(self):
         pass
