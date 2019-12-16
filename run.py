@@ -83,7 +83,7 @@ def main():
                     elif short_code == 'dc':
 
                             if display_credentials():
-                                    print("Here is a list of all your passwords")
+                                    print("dispay of all the passwords")
                                     print('\n')
 
                                     for credentials in _all_credentials():
