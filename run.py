@@ -108,7 +108,7 @@ def main():
                                     print(f"Password.......{search_credentials.password}")
                                     print(f"Email address.......{search_credentials.email}")
                             else:
-                                    print("That password does not exist")
+                                    print("password does not exist")
 
                     elif short_code == "ex":
                             print("Bye .......")
