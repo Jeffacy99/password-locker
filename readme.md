@@ -4,9 +4,6 @@
 ## PROJECT DESCRIPTION
 >Application that can be used  to store manage and generate passwords.
 
-
-
-
 ## SETUP INSTRUCTIONS
 >Text editor - atom
 >Github account-Jeffacy99
@@ -16,8 +13,7 @@
 >OS-ubuntu
 
 ## TECHNOLOGIES USED
->Python 3.8
-
+>Python 3.8(pyperclip)
 
 ## CONTACT INFORMATION
 For comments,addition information email at japhethmwania99@gmail.com
