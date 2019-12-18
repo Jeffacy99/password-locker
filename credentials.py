@@ -18,11 +18,6 @@ class User:
         '''
         save_user method saves user objects into user_list
         '''
-        def tearDown(self):
-            '''
-            tearDown method that does clean up after each test case has run.
-            '''
-            User.user_list = []
 
     def delete_user(self):
 
@@ -40,7 +35,7 @@ class Credentials:
 
     credentials_list = []
     def save_credentials(self):
-        pass
+         Credentials.credentials_list.append(self)
 
     def __init__(self,account,password,user_name):
 
@@ -49,11 +44,6 @@ class Credentials:
             self.account = account
             self.password = password
             self.user_name= user_name
-
-
-
-    def save_credentials(self):
-        Credentials.credentials_list.append(self)
 
     def delete_credentials(self):
 
